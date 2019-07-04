@@ -1,4 +1,4 @@
-package com.tw.QuestionOne;
+package com.tw.questionone;
 
 import java.io.File;
 import java.io.FileReader;
@@ -15,9 +15,11 @@ public class FileManager {
     public FileManager(String filePath, String separator) {
         try {
             File file = new File(filePath);
+            //使用FileReader将文件读入内存
             FileReader fileReader = new FileReader(file);
             //file.length 返回文件字节大小
             char[] buf =new char[(int)file.length()];
+            //将文件字节读入buf并返回长度
             int length = fileReader.read(buf);
             //new String(buf,offset,length)
             // bytes：要解码为字符的 byte
@@ -38,6 +40,8 @@ public class FileManager {
         if(pos==words.length){
             return null;
         }
+        //i++ 先使用该值，后+1
+        //++i 先+1，后使用该值
         return words[pos++];
     }
 }

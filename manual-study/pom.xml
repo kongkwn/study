@@ -5,12 +5,12 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.tw</groupId>
-    <artifactId>algorithm-programming</artifactId>
+    <artifactId>manual-study</artifactId>
     <version>1.0-SNAPSHOT</version>
+
     <parent>
         <version>1.0-SNAPSHOT</version>
         <artifactId>study</artifactId>
         <groupId>com.tw</groupId>
     </parent>
-
 </project>
