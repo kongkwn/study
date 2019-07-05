@@ -6,6 +6,9 @@ import java.io.*;
  * @Author: tanwei
  * @Description:编写一个程序，将amkdir目录下的所有.java文件复制到bmkdir目录下，并将原来文件的扩展名从.java改为.jad。
  * @Date: Create in 14:33 2019/7/4
+ * 知识点
+ *      File类的使用
+ *      Io inputStream和outputStream的使用
  */
 public class Answer {
     public static void main(String[] args) {
@@ -26,6 +29,7 @@ public class Answer {
                     FileInputStream fileInputStream=new FileInputStream(file);
                     File bmkdir=new File("E:\\workspace\\study\\algorithm-programming\\src\\main\\java\\com\\tw\\questiontwo\\bmkdir");
                     if(!bmkdir.exists()){
+                        //mkdir创建目录 mkdirs如果父目录不存在，同时创建父目录
                         bmkdir.mkdirs();
                     }
                     String fileName=file.getName().replaceAll("\\.java$",".jad");
