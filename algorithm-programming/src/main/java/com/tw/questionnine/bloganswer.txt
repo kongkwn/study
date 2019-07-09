@@ -1,0 +1,49 @@
+package cn.itcast;
+
+
+
+import java.util.Date;
+
+
+
+publicclass A1 {
+
+
+
+    public static voidmain(String [] args)
+
+    {
+
+       System.out.println(computeAge(8));
+
+    }
+
+
+
+    public static int computeAge(intn)
+
+    {
+
+       if(n==1)return 10;
+
+       returncomputeAge(n-1) + 2;
+
+    }
+
+}
+
+
+
+    public static voidtoBinary(int n,StringBuffer result)
+
+    {
+
+
+
+       if(n/2 != 0)
+
+           toBinary(n/2,result);
+
+       result.append(n%2);
+
+    }

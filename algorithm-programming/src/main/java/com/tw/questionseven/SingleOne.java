@@ -2,8 +2,12 @@ package com.tw.questionseven;
 
 /**
  * @Author: tanwei
- * @Description:
+ * @Description: 手写单例
  * @Date: Create in 13:58 2019/7/8
+ *      知识点：
+ *          饿汉式单例 类创建时就初始化一个静态对象，天生线程安全
+ *          懒汉式单例 第一次使用该类时才会创建对象，线程不安全，可优化。
+ *          本答案为双重检测懒汉式单例，多线程安全
  */
 public class SingleOne {
     private static SingleOne singleOne=null;
