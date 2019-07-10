@@ -1,4 +1,4 @@
-package com.tw.questionsix;
+package com.tw.question6;
 
 import lombok.Data;
 

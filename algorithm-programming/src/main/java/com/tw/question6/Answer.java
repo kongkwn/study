@@ -1,4 +1,4 @@
-package com.tw.questionsix;
+package com.tw.question6;
 
 import com.google.common.collect.Lists;
 import org.apache.commons.lang.StringUtils;
@@ -19,7 +19,7 @@ import java.util.*;
 public class Answer {
     public static void main(String[] args) {
         try {
-            File file = new File("E:\\workspace\\study\\algorithm-programming\\src\\main\\java\\com\\tw\\questionsix\\a.txt");
+            File file = new File("E:\\workspace\\study\\algorithm-programming\\src\\main\\java\\com\\tw\\question6\\a.txt");
             FileReader fileReader = new FileReader(file);
             BufferedReader bufferedReader = new BufferedReader(fileReader);
             List<User> userList = Lists.newArrayList();

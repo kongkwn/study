@@ -1,4 +1,4 @@
-package com.tw.questiontwo;
+package com.tw.question2;
 
 import java.io.*;
 
@@ -13,7 +13,7 @@ import java.io.*;
 public class Answer {
     public static void main(String[] args) {
         try {
-            File amkdir =new File("E:\\workspace\\study\\algorithm-programming\\src\\main\\java\\com\\tw\\questiontwo\\amkdir");
+            File amkdir =new File("E:\\workspace\\study\\algorithm-programming\\src\\main\\java\\com\\tw\\question2\\amkdir");
             if(!(amkdir.exists() && amkdir.isDirectory())){
                 throw new Exception("不是目录");
             }
@@ -27,7 +27,7 @@ public class Answer {
             for (File file : files) {
                 if(file.getName().endsWith(".java")){
                     FileInputStream fileInputStream=new FileInputStream(file);
-                    File bmkdir=new File("E:\\workspace\\study\\algorithm-programming\\src\\main\\java\\com\\tw\\questiontwo\\bmkdir");
+                    File bmkdir=new File("E:\\workspace\\study\\algorithm-programming\\src\\main\\java\\com\\tw\\question2\\bmkdir");
                     if(!bmkdir.exists()){
                         //mkdir创建目录 mkdirs如果父目录不存在，同时创建父目录
                         bmkdir.mkdirs();

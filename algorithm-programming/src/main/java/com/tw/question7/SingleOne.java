@@ -1,4 +1,4 @@
-package com.tw.questionseven;
+package com.tw.question7;
 
 /**
  * @Author: tanwei

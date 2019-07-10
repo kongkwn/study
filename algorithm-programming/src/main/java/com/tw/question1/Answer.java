@@ -1,4 +1,4 @@
-package com.tw.questionone;
+package com.tw.question1;
 
 import java.io.File;
 import java.io.FileWriter;
@@ -19,8 +19,8 @@ public class Answer {
     public static void main(String[] args) {
         try {
             //基于对象，处理txt文件
-            FileManager aFileManager =new FileManager("E:\\workspace\\study\\algorithm-programming\\src\\main\\java\\com\\tw\\questionone\\a.txt","\r\n");
-            FileManager bFileManager =new FileManager("E:\\workspace\\study\\algorithm-programming\\src\\main\\java\\com\\tw\\questionone\\b.txt"," ");
+            FileManager aFileManager =new FileManager("E:\\workspace\\study\\algorithm-programming\\src\\main\\java\\com\\tw\\question1\\a.txt","\r\n");
+            FileManager bFileManager =new FileManager("E:\\workspace\\study\\algorithm-programming\\src\\main\\java\\com\\tw\\question1\\b.txt"," ");
 
             //自己的逻辑，使用builder重组数组
             /*String[] aFileManagerWords = aFileManager.getWords();
@@ -33,7 +33,7 @@ public class Answer {
             }else{
                 stringBuilder=getNewArray(bFileManagerWords,aFileManagerWords);
             }*/
-            File cFile=new File("E:\\workspace\\study\\algorithm-programming\\src\\main\\java\\com\\tw\\questionone\\c.txt");
+            File cFile=new File("E:\\workspace\\study\\algorithm-programming\\src\\main\\java\\com\\tw\\question1\\c.txt");
             if (cFile.exists()){
                 cFile.delete();
             }

@@ -1,6 +1,4 @@
-package com.tw.questioneight;
-
-import com.google.common.collect.Lists;
+package com.tw.question8;
 
 import java.util.Collections;
 import java.util.List;

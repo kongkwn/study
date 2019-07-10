@@ -1,4 +1,4 @@
-package com.tw.questiontwo.amkdir;
+package com.tw.question2.amkdir;
 
 /**
  * @Author: tanwei
