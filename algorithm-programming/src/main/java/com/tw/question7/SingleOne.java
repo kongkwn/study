@@ -8,6 +8,7 @@ package com.tw.question7;
  *          饿汉式单例 类创建时就初始化一个静态对象，天生线程安全
  *          懒汉式单例 第一次使用该类时才会创建对象，线程不安全，可优化。
  *          本答案为双重检测懒汉式单例，多线程安全
+ *          单元素的枚举类型已经成为实现Singleton的最佳方法。
  */
 public class SingleOne {
     private static SingleOne singleOne=null;
