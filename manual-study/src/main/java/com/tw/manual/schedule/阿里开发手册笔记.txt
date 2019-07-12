@@ -98,7 +98,7 @@
             BigDecimal recommend1 = new BigDecimal("0.1");
             BigDecimal recommend2 = BigDecimal.valueOf(0.1);
 
-	就如同爱情，可要是不试，你又怎么知道那个人是不是最对的呢？
+	end--就如同爱情，可要是不试，你又怎么知道那个人是不是最对的呢？
 	
 	五，集合处理
 		1.(强制)只要重写 equals，就必须重写 hashCode。
@@ -182,4 +182,4 @@
                 TreeSet 是 order/sort。
         17.(参考)利用 Set 元素唯一的特性，可以快速对一个集合进行去重操作，避免使用 List 的contains 方法进行遍历、对比、去重操作
 
-    快乐的方式有很多种，最直接的，就是见到你。
+    end--快乐的方式有很多种，最直接的，就是见到你。
