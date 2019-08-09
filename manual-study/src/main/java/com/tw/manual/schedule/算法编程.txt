@@ -1,3 +1,15 @@
-博客 https://blog.csdn.net/qq_18298439/article/details/80939968
+汇总 https://blog.csdn.net/qq_18298439/article/details/80939968
 
 CAS算法 https://blog.csdn.net/v123411739/article/details/79561458
+
+AQS :https://blog.csdn.net/Fly_Eason/article/details/80350017
+
+自旋锁：https://blog.csdn.net/jeffasd/article/details/51321743
+
+LongAdder和AtomicLong ：https://blog.csdn.net/yao123long/article/details/63683991
+
+CountDownLatch 详解：https://blog.csdn.net/qq_26368063/article/details/82386581
+
+高并发hashMap并发死链:https://blog.csdn.net/qq_35214078/article/details/79767407
+
+java并发包详解：https://blog.csdn.net/qq_27378875/article/details/81610696
