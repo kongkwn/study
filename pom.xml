@@ -6,10 +6,12 @@
 
     <groupId>com.tw</groupId>
     <artifactId>study</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>algorithm-programming</module>
         <module>manual-study</module>
+        <module>like-a-fish</module>
     </modules>
     <dependencies>
         <!-- https://mvnrepository.com/artifact/commons-lang/commons-lang -->
