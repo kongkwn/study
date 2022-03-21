@@ -26,7 +26,7 @@ public class LamBdaTest {
     }
 
     public static void whenFilterList_thenSuccess() {
-        List<String> names = Arrays.asList("Jack","Adam", "Alexander", "John", "Tom");
+        List<String> names = Arrays.asList("Adam", "Alexander", "John", "Tom");
         List<String> result = names.stream()
                 .filter((name) ->  name.startsWith("A") || name.startsWith("J"))
                 .collect(Collectors.toList());
