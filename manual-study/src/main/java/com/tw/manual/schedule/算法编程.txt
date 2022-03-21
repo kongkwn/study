@@ -15,3 +15,5 @@ CountDownLatch 详解：https://blog.csdn.net/qq_26368063/article/details/823865
 java并发包详解：https://blog.csdn.net/qq_27378875/article/details/81610696
 
 rocketMq 底层 raft: http://thesecretlivesofdata.com/raft/
+
+一致性哈希算法 ： https://www.cnblogs.com/williamjie/p/9477852.html
